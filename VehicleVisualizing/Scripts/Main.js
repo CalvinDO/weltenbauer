@@ -1,7 +1,7 @@
 var VehicleVisualization;
 (function (VehicleVisualization) {
     window.addEventListener("load", init);
-    let baseURL = "http://127.0.0.1:5500/VehicleData";
+    let baseURL = "https://calvindo.github.io/weltenbauer/VehicleData";
     let vehicles;
     let vehicleContainer;
     function init(_event) {
@@ -13,12 +13,14 @@ var VehicleVisualization;
     }
     async function communicate(_e) {
         for (let name of _e.target.files) {
-            let url = baseURL + "/" + name.name;
-            let response = await fetch(url);
             let nameStr = name.name;
-            let vehicleName = nameStr.replace(".json", "");
-            let vehicle = new VehicleVisualization.Vehicle(vehicleName, await response.json());
-            vehicleContainer.append(vehicle.getDiv());
+            if (!nameStr.toLowerCase().endsWith(".meta")) {
+                let url = baseURL + "/" + name.name;
+                let response = await fetch(url);
+                let vehicleName = nameStr.replace(".json", "");
+                let vehicle = new VehicleVisualization.Vehicle(vehicleName, await response.json());
+                vehicleContainer.append(vehicle.getDiv());
+            }
         }
     }
 })(VehicleVisualization || (VehicleVisualization = {}));
