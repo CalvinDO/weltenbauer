@@ -1,0 +1,98 @@
+{
+    "machineId": 504,
+    "common": {
+        "prefabLayout": true,
+        "textIds": false,
+        "machineTrigger": true,
+        "machineData": true,
+        "collider": true,
+        "materials": true,
+        "weights": true,
+        "COM": true,
+        "lights": true,
+        "componentsAdded": true,
+        "hydraulics": true,
+        "autoPilot": true,
+        "sound": true,
+        "LOD0": true,
+        "LOD1": true,
+        "LOD2": false,
+        "LOD3": false,
+        "transportTieDowns": false,
+        "interiorController": false,
+        "playerTriggerZone": true,
+        "areaChecker": true,
+        "machineSync": false,
+        "materialBlockZones": false,
+        "cameraControllerAdded": false
+    },
+    "wheelDriving": {
+        "wheelCollider": true,
+        "wheelPivots": true,
+        "engine": true,
+        "axles": true,
+        "brakes": true,
+        "tyreFx": true,
+        "tireFriction": true,
+        "basicDriving": true,
+        "stableDriving": true
+    },
+    "trackDriving": {
+        "driving": false,
+        "wheelCollider": false
+    },
+    "articulatedDriving": {
+        "wheelCollider": false,
+        "wheelPivots": false,
+        "engine": false,
+        "axles": false,
+        "brakes": false,
+        "tyreFx": false,
+        "tireFriction": false,
+        "basicDriving": false,
+        "stableDriving": false,
+        "backSetup": false,
+        "frontSetup": false,
+        "joinSetup": false
+    },
+    "interiorController": {
+        "functional": false,
+        "polished": false,
+        "uid": 27,
+        "IKDriverSeat": true,
+        "IKPassengerSeat": true,
+        "InteriorSteeringWheel": true,
+        "InteriorJoystick": true
+    },
+    "generalComponents": [
+        {
+            "functional": true,
+            "polished": true,
+            "uid": 28
+        }
+    ],
+    "movementComponent": [],
+    "networkSyncController": {
+        "functional": false,
+        "polished": false,
+        "uid": 0,
+        "hasPhotonView": true,
+        "hasSyncMachineScript": true,
+        "rigidbodiesLinked": true,
+        "otherTransformsToSyncLinked": true
+    },
+    "cameraController": {
+        "functional": false,
+        "polished": false,
+        "uid": 0,
+        "camerasPerMachineStateSet": true,
+        "interiorPolished": false
+    },
+    "masterBlock": {
+        "functional": false,
+        "polished": false,
+        "uid": 0,
+        "zonesDefined": false
+    },
+    "notes": "Lenkt noch sehr hart ein."
+}

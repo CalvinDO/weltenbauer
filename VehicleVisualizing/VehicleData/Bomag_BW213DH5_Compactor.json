@@ -1,0 +1,88 @@
+{
+    "machineId": 56,
+    "common": {
+        "prefabLayout": true,
+        "textIds": false,
+        "machineTrigger": true,
+        "machineData": true,
+        "collider": true,
+        "materials": true,
+        "weights": true,
+        "COM": true,
+        "lights": true,
+        "cameraTargets": false,
+        "componentsAdded": true,
+        "hydraulics": true,
+        "autoPilot": false,
+        "sound": true,
+        "LOD0": true,
+        "LOD1": true,
+        "LOD2": false,
+        "LOD3": false,
+        "transportTieDowns": false,
+        "interiorController": false,
+        "playerTriggerZone": true,
+        "areaChecker": true,
+        "machineSync": false
+    },
+    "wheelDriving": {
+        "wheelCollider": false,
+        "wheelPivots": false,
+        "engine": false,
+        "axles": false,
+        "brakes": false,
+        "tyreFx": false,
+        "tireFriction": false,
+        "basicDriving": false,
+        "stableDriving": false
+    },
+    "trackDriving": {
+        "driving": false,
+        "wheelCollider": false
+    },
+    "articulatedDriving": {
+        "wheelCollider": true,
+        "wheelPivots": true,
+        "engine": true,
+        "axles": true,
+        "brakes": true,
+        "tyreFx": true,
+        "tireFriction": true,
+        "basicDriving": true,
+        "stableDriving": true,
+        "backSetup": true,
+        "frontSetup": true,
+        "joinSetup": true
+    },
+    "interiorController": {
+        "IKDriverSeat": true,
+        "IKPassengerSeat": true,
+        "InteriorSteeringWheel": true,
+        "InteriorJoystick": true,
+        "functional": false,
+        "polished": false
+    },
+    "generalComponents": [
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 7
+        },
+        {
+            "functional": true,
+            "polished": true,
+            "uid": 24
+        }
+    ],
+    "movementComponent": [],
+    "networkSyncController": {
+        "hasPhotonView": true,
+        "hasSyncMachineScript": true,
+        "rigidbodiesLinked": true,
+        "otherTransformsToSyncLinked": true
+    },
+    "cameraController": {
+        "cameraControllerAdded": true,
+        "camerasPerMachineStateSet": true
+    }
+}

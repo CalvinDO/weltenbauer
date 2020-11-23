@@ -1,0 +1,284 @@
+{
+    "machineId": 108,
+    "common": {
+        "prefabLayout": false,
+        "textIds": false,
+        "machineTrigger": false,
+        "machineData": false,
+        "collider": true,
+        "materials": true,
+        "weights": true,
+        "COM": false,
+        "lights": false,
+        "componentsAdded": false,
+        "hydraulics": false,
+        "autoPilot": false,
+        "sound": false,
+        "LOD0": true,
+        "LOD1": false,
+        "LOD2": false,
+        "LOD3": false,
+        "transportTieDowns": false,
+        "interiorController": false,
+        "playerTriggerZone": false,
+        "areaChecker": false,
+        "machineSync": false,
+        "materialBlockZones": false,
+        "cameraControllerAdded": false
+    },
+    "wheelDriving": {
+        "wheelCollider": true,
+        "wheelPivots": true,
+        "engine": false,
+        "axles": false,
+        "brakes": false,
+        "tyreFx": false,
+        "tireFriction": false,
+        "basicDriving": false,
+        "stableDriving": false
+    },
+    "trackDriving": {
+        "driving": false,
+        "wheelCollider": false
+    },
+    "articulatedDriving": {
+        "wheelCollider": false,
+        "wheelPivots": false,
+        "engine": false,
+        "axles": false,
+        "brakes": false,
+        "tyreFx": false,
+        "tireFriction": false,
+        "basicDriving": false,
+        "stableDriving": false,
+        "backSetup": false,
+        "frontSetup": false,
+        "joinSetup": false
+    },
+    "interiorController": {
+        "functional": false,
+        "polished": false,
+        "uid": 33,
+        "IKDriverSeat": false,
+        "IKPassengerSeat": false,
+        "InteriorSteeringWheel": false,
+        "InteriorJoystick": false
+    },
+    "generalComponents": [
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 1
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 31
+        }
+    ],
+    "movementComponent": [
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 34,
+            "input": false,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 35,
+            "input": false,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 36,
+            "input": false,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 38,
+            "input": false,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 39,
+            "input": false,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 40,
+            "input": false,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 42,
+            "input": false,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 43,
+            "input": false,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 44,
+            "input": false,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 46,
+            "input": false,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 47,
+            "input": false,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 48,
+            "input": false,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 54,
+            "input": false,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 55,
+            "input": false,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 59,
+            "input": false,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 60,
+            "input": false,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 61,
+            "input": false,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 62,
+            "input": false,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 63,
+            "input": false,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 64,
+            "input": false,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        }
+    ],
+    "networkSyncController": {
+        "functional": false,
+        "polished": false,
+        "uid": 0,
+        "hasPhotonView": false,
+        "hasSyncMachineScript": false,
+        "rigidbodiesLinked": false,
+        "otherTransformsToSyncLinked": false
+    },
+    "cameraController": {
+        "functional": false,
+        "polished": false,
+        "uid": 0,
+        "camerasPerMachineStateSet": false,
+        "interiorPolished": false
+    },
+    "masterBlock": {
+        "functional": false,
+        "polished": false,
+        "uid": 2,
+        "zonesDefined": false
+    },
+    "notes": ""
+}

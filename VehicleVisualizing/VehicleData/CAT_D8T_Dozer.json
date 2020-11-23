@@ -1,0 +1,130 @@
+{
+    "machineId": 14,
+    "common": {
+        "prefabLayout": true,
+        "textIds": false,
+        "machineTrigger": true,
+        "machineData": true,
+        "collider": true,
+        "materials": true,
+        "weights": false,
+        "COM": true,
+        "lights": false,
+        "cameraTargets": false,
+        "componentsAdded": true,
+        "hydraulics": true,
+        "autoPilot": false,
+        "sound": false,
+        "LOD0": true,
+        "LOD1": true,
+        "LOD2": false,
+        "LOD3": false,
+        "transportTieDowns": false,
+        "interiorController": false,
+        "playerTriggerZone": true,
+        "areaChecker": true,
+        "machineSync": false
+    },
+    "wheelDriving": {
+        "wheelCollider": false,
+        "wheelPivots": false,
+        "engine": false,
+        "axles": false,
+        "brakes": false,
+        "tyreFx": false,
+        "tireFriction": false,
+        "basicDriving": false,
+        "stableDriving": false
+    },
+    "trackDriving": {
+        "driving": true,
+        "wheelCollider": false
+    },
+    "articulatedDriving": {
+        "wheelCollider": false,
+        "wheelPivots": false,
+        "engine": false,
+        "axles": false,
+        "brakes": false,
+        "tyreFx": false,
+        "tireFriction": false,
+        "basicDriving": false,
+        "stableDriving": false,
+        "backSetup": false,
+        "frontSetup": false,
+        "joinSetup": false
+    },
+    "interiorController": {
+        "IKDriverSeat": true,
+        "IKPassengerSeat": true,
+        "InteriorSteeringWheel": true,
+        "InteriorJoystick": true,
+        "functional": false,
+        "polished": false
+    },
+    "generalComponents": [
+        {
+            "functional": true,
+            "polished": false,
+            "uid": 52
+        },
+        {
+            "functional": true,
+            "polished": false,
+            "uid": 53
+        },
+        {
+            "functional": true,
+            "polished": false,
+            "uid": 61
+        }
+    ],
+    "movementComponent": [
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 25,
+            "input": false,
+            "sound": false,
+            "highlightMesh": true,
+            "hydraulics": true
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 28,
+            "input": false,
+            "sound": false,
+            "highlightMesh": true,
+            "hydraulics": true
+        },
+        {
+            "functional": true,
+            "polished": false,
+            "uid": 29,
+            "input": true,
+            "sound": true,
+            "highlightMesh": true,
+            "hydraulics": true
+        },
+        {
+            "functional": true,
+            "polished": false,
+            "uid": 30,
+            "input": true,
+            "sound": true,
+            "highlightMesh": true,
+            "hydraulics": true
+        }
+    ],
+    "networkSyncController": {
+        "hasPhotonView": true,
+        "hasSyncMachineScript": true,
+        "rigidbodiesLinked": true,
+        "otherTransformsToSyncLinked": true
+    },
+    "cameraController": {
+        "cameraControllerAdded": true,
+        "camerasPerMachineStateSet": true
+    }
+}

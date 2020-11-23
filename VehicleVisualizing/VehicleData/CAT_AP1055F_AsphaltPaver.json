@@ -1,0 +1,168 @@
+{
+    "machineId": 55,
+    "common": {
+        "prefabLayout": true,
+        "textIds": false,
+        "machineTrigger": true,
+        "machineData": true,
+        "collider": true,
+        "materials": true,
+        "weights": true,
+        "COM": true,
+        "lights": true,
+        "componentsAdded": false,
+        "hydraulics": false,
+        "autoPilot": false,
+        "sound": false,
+        "LOD0": true,
+        "LOD1": true,
+        "LOD2": false,
+        "LOD3": false,
+        "transportTieDowns": false,
+        "interiorController": false,
+        "playerTriggerZone": true,
+        "areaChecker": true,
+        "machineSync": false,
+        "materialBlockZones": false,
+        "cameraControllerAdded": false
+    },
+    "wheelDriving": {
+        "wheelCollider": false,
+        "wheelPivots": false,
+        "engine": false,
+        "axles": false,
+        "brakes": false,
+        "tyreFx": false,
+        "tireFriction": false,
+        "basicDriving": false,
+        "stableDriving": false
+    },
+    "trackDriving": {
+        "driving": true,
+        "wheelCollider": true
+    },
+    "articulatedDriving": {
+        "wheelCollider": false,
+        "wheelPivots": false,
+        "engine": false,
+        "axles": false,
+        "brakes": false,
+        "tyreFx": false,
+        "tireFriction": false,
+        "basicDriving": false,
+        "stableDriving": false,
+        "backSetup": false,
+        "frontSetup": false,
+        "joinSetup": false
+    },
+    "interiorController": {
+        "functional": false,
+        "polished": false,
+        "uid": 22,
+        "IKDriverSeat": false,
+        "IKPassengerSeat": false,
+        "InteriorSteeringWheel": false,
+        "InteriorJoystick": false
+    },
+    "generalComponents": [
+        {
+            "functional": true,
+            "polished": true,
+            "uid": 1
+        },
+        {
+            "functional": true,
+            "polished": true,
+            "uid": 13
+        },
+        {
+            "functional": true,
+            "polished": false,
+            "uid": 14
+        },
+        {
+            "functional": true,
+            "polished": false,
+            "uid": 15
+        }
+    ],
+    "movementComponent": [
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 32,
+            "input": true,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        },
+        {
+            "functional": true,
+            "polished": false,
+            "uid": 28,
+            "input": true,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 30,
+            "input": true,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 24,
+            "input": true,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 26,
+            "input": true,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 31,
+            "input": true,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        }
+    ],
+    "networkSyncController": {
+        "functional": false,
+        "polished": false,
+        "uid": 0,
+        "hasPhotonView": false,
+        "hasSyncMachineScript": false,
+        "rigidbodiesLinked": false,
+        "otherTransformsToSyncLinked": false
+    },
+    "cameraController": {
+        "functional": false,
+        "polished": false,
+        "uid": 0,
+        "camerasPerMachineStateSet": false,
+        "interiorPolished": false
+    },
+    "masterBlock": {
+        "functional": false,
+        "polished": false,
+        "uid": 0,
+        "zonesDefined": false
+    },
+    "notes": "Hide Joysticks when in LOD > 0\nImplement some component for the TransportBand\n"
+}

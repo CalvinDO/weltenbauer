@@ -1,0 +1,102 @@
+{
+    "machineId": 750,
+    "common": {
+        "prefabLayout": true,
+        "textIds": false,
+        "machineTrigger": false,
+        "machineData": false,
+        "collider": true,
+        "materials": true,
+        "weights": true,
+        "COM": true,
+        "lights": true,
+        "componentsAdded": true,
+        "hydraulics": true,
+        "autoPilot": false,
+        "sound": false,
+        "LOD0": true,
+        "LOD1": true,
+        "LOD2": false,
+        "LOD3": false,
+        "transportTieDowns": true,
+        "interiorController": true,
+        "playerTriggerZone": true,
+        "areaChecker": false,
+        "machineSync": false,
+        "materialBlockZones": true,
+        "cameraControllerAdded": true
+    },
+    "wheelDriving": {
+        "wheelCollider": false,
+        "wheelPivots": false,
+        "engine": false,
+        "axles": false,
+        "brakes": false,
+        "tyreFx": false,
+        "tireFriction": false,
+        "basicDriving": false,
+        "stableDriving": false
+    },
+    "trackDriving": {
+        "driving": false,
+        "wheelCollider": false
+    },
+    "articulatedDriving": {
+        "wheelCollider": true,
+        "wheelPivots": true,
+        "engine": true,
+        "axles": true,
+        "brakes": true,
+        "tyreFx": false,
+        "tireFriction": true,
+        "basicDriving": false,
+        "stableDriving": false,
+        "backSetup": true,
+        "frontSetup": true,
+        "joinSetup": true
+    },
+    "interiorController": {
+        "functional": false,
+        "polished": false,
+        "uid": 0,
+        "IKDriverSeat": false,
+        "IKPassengerSeat": false,
+        "InteriorSteeringWheel": true,
+        "InteriorJoystick": false
+    },
+    "generalComponents": [],
+    "movementComponent": [
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 30,
+            "input": true,
+            "sound": false,
+            "highlightMesh": false,
+            "hydraulics": false
+        }
+    ],
+    "networkSyncController": {
+        "functional": false,
+        "polished": false,
+        "uid": 0,
+        "hasPhotonView": false,
+        "hasSyncMachineScript": false,
+        "rigidbodiesLinked": false,
+        "otherTransformsToSyncLinked": false
+    },
+    "cameraController": {
+        "functional": false,
+        "polished": false,
+        "uid": 0,
+        "camerasPerMachineStateSet": true,
+        "interiorPolished": false
+    },
+    "masterBlock": {
+        "functional": false,
+        "polished": false,
+        "uid": 0,
+        "zonesDefined": true
+    },
+    "notes": "WheelColliders do not collide, Vehicle falls into the ground"
+}

@@ -1,0 +1,160 @@
+{
+    "machineId": 110,
+    "common": {
+        "prefabLayout": true,
+        "textIds": false,
+        "machineTrigger": true,
+        "machineData": false,
+        "collider": true,
+        "materials": true,
+        "weights": true,
+        "COM": true,
+        "lights": false,
+        "componentsAdded": true,
+        "hydraulics": true,
+        "autoPilot": false,
+        "sound": false,
+        "LOD0": true,
+        "LOD1": true,
+        "LOD2": false,
+        "LOD3": false,
+        "transportTieDowns": false,
+        "interiorController": false,
+        "playerTriggerZone": false,
+        "areaChecker": false,
+        "machineSync": false,
+        "materialBlockZones": true,
+        "cameraControllerAdded": true
+    },
+    "wheelDriving": {
+        "wheelCollider": false,
+        "wheelPivots": false,
+        "engine": false,
+        "axles": false,
+        "brakes": false,
+        "tyreFx": false,
+        "tireFriction": false,
+        "basicDriving": false,
+        "stableDriving": false
+    },
+    "trackDriving": {
+        "driving": true,
+        "wheelCollider": true
+    },
+    "articulatedDriving": {
+        "wheelCollider": false,
+        "wheelPivots": false,
+        "engine": false,
+        "axles": false,
+        "brakes": false,
+        "tyreFx": false,
+        "tireFriction": false,
+        "basicDriving": false,
+        "stableDriving": false,
+        "backSetup": false,
+        "frontSetup": false,
+        "joinSetup": false
+    },
+    "interiorController": {
+        "functional": false,
+        "polished": false,
+        "uid": 72,
+        "IKDriverSeat": false,
+        "IKPassengerSeat": false,
+        "InteriorSteeringWheel": false,
+        "InteriorJoystick": false
+    },
+    "generalComponents": [
+        {
+            "functional": true,
+            "polished": false,
+            "uid": 35
+        },
+        {
+            "functional": true,
+            "polished": false,
+            "uid": 36
+        },
+        {
+            "functional": true,
+            "polished": true,
+            "uid": 68
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 53
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 57
+        },
+        {
+            "functional": false,
+            "polished": false,
+            "uid": 84
+        }
+    ],
+    "movementComponent": [
+        {
+            "functional": true,
+            "polished": false,
+            "uid": 37,
+            "input": true,
+            "sound": false,
+            "highlightMesh": true,
+            "hydraulics": true
+        },
+        {
+            "functional": true,
+            "polished": false,
+            "uid": 43,
+            "input": true,
+            "sound": false,
+            "highlightMesh": true,
+            "hydraulics": true
+        },
+        {
+            "functional": true,
+            "polished": false,
+            "uid": 46,
+            "input": true,
+            "sound": false,
+            "highlightMesh": true,
+            "hydraulics": true
+        },
+        {
+            "functional": true,
+            "polished": false,
+            "uid": 52,
+            "input": true,
+            "sound": false,
+            "highlightMesh": true,
+            "hydraulics": true
+        }
+    ],
+    "networkSyncController": {
+        "functional": false,
+        "polished": false,
+        "uid": 0,
+        "hasPhotonView": false,
+        "hasSyncMachineScript": false,
+        "rigidbodiesLinked": false,
+        "otherTransformsToSyncLinked": false
+    },
+    "cameraController": {
+        "functional": false,
+        "polished": false,
+        "uid": 0,
+        "camerasPerMachineStateSet": false,
+        "interiorPolished": false
+    },
+    "masterBlock": {
+        "functional": true,
+        "polished": false,
+        "uid": 85,
+        "zonesDefined": true
+    },
+    "notes": ""
+}
