@@ -1,7 +1,7 @@
 var VehicleVisualization;
 (function (VehicleVisualization) {
     window.addEventListener("load", init);
-    let baseURL = "https://calvindo.github.io/weltenbauer/VehicleData";
+    let baseURL = "https://calvindo.github.io/weltenbauer/VehicleVisualizing/VehicleData";
     let vehicles;
     let vehicleContainer;
     function init(_event) {

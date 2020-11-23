@@ -1,7 +1,7 @@
 namespace VehicleVisualization {
     window.addEventListener("load", init);
 
-    let baseURL: string = "https://calvindo.github.io/weltenbauer/VehicleData";
+    let baseURL: string = "https://calvindo.github.io/weltenbauer/VehicleVisualizing/VehicleData";
     let vehicles: Vehicle[];
 
     let vehicleContainer: HTMLDivElement;
